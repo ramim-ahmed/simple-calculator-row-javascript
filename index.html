@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <!-- add tailwindcss cdn -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <main class="bg-slate-100 h-screen w-full flex justify-center items-center">
+        <div class="h-[300px] w-[300px] border">
+            <div>
+             <input class="w-full text-right px-8 border-none outline-none appearance-none h-14" type="text" readonly id="output_area">
+            </div>
+           <div id="calculator_container" class="grid grid-cols-4 gap-x-5 text-center gap-y-5 mt-5">
+            <button>AC</button>
+            <button>+/-</button>
+            <button>%</button>
+            <button>/</button>
+            <button>7</button>
+            <button>8</button>
+            <button>9</button>
+            <button>*</button>
+            <button>4</button>
+            <button>5</button>
+            <button>6</button>
+            <button>-</button>
+            <button>3</button>
+            <button>2</button>
+            <button>1</button>
+            <button>+</button>
+            <button>0</button>
+            <button>.</button>
+            <button>=</button>
+           </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
